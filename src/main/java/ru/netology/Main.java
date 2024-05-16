@@ -6,8 +6,12 @@ public class Main {
 
         VactionService service = new VactionService();
 
+        int actual = service.calculateMoneyMonths();
+
         var expected = 3;
-        int actual = (int) service.calculateMoneyMonths();
+        actual = (int) service.calculateMoneyMonths();
+        System.out.println(actual);
+
 
 
     }
