@@ -6,10 +6,10 @@ public class Main {
 
         VactionService service = new VactionService();
 
-        int actual = service.calculateMoneyMonths();
+        int actual = service.calcVacationMonths();
 
-        var expected = 3;
-        actual = (int) service.calculateMoneyMonths();
+        var expected = 1;
+        actual = (int) service.calcVacationMonths();
         System.out.println(actual);
 
 

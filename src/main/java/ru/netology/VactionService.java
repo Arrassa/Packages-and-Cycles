@@ -2,7 +2,7 @@ package ru.netology;
 
 class VactionService {
 
-    public int calculateMoneyMonths() {
+    public int calcVacationMonths() {
         int count = 0; // счётчик месяцев отдыха
         int money = 0; // количество денег на счету
         int threshold = 0;
@@ -20,3 +20,6 @@ class VactionService {
         return count;
     }
 }
+
+
+
