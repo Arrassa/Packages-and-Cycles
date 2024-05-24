@@ -4,12 +4,13 @@ package ru.netology;
 public class Main {
     public static void main(String[] args) {
 
-        VactionService service = new VactionService();
+        VacationService service = new VacationService();
 
-        int actual = service.calcVacationMonths();
+        int actual =  service.calculate(10_000, 3_000, 20_000);
 
-        var expected = 1;
-        actual = (int) service.calcVacationMonths();
+
+        var expected = 3;
+
         System.out.println(actual);
 
 
